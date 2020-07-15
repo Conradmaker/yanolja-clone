@@ -1,0 +1,34 @@
+.home {
+  .section--catagory {
+    .inner {
+      .location {
+      }
+      .catagory {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        .item {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .list-logo {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-motel.svg");
+            background-size: 100%;
+            width: 38px;
+            height: 38px;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-indent: -9999px;
+          }
+        }
+      }
+      .coupon {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}

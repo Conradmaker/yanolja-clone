@@ -1,0 +1,103 @@
+//COMMON
+$color: #ff3478;
+$sub-color: #ababab;
+html {
+  position: relative;
+  //height: 1000px;
+}
+.inner {
+  max-width: 728px;
+  margin: 0 auto;
+}
+li {
+  display: inline-block;
+}
+a {
+  color: #111;
+  display: inline-block;
+  text-decoration: none;
+}
+
+//TOP_NAV
+.section--nav-top {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  .inner {
+    .top-nav {
+      text-align: center;
+      display: flex;
+      .logo {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/logo.svg");
+        background-size: contain;
+        box-sizing: border-box;
+        width: 80px;
+        height: 24px;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        padding: 10px;
+        margin: 10px 0;
+        flex: 1;
+        background-position: center;
+      }
+      .search-top {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/btn-search.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        width: 24px;
+        height: 24px;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+//BOTTOM_NAV
+.section--nav-bottom {
+  .bottom-nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+    .inner {
+      .items {
+        display: flex;
+        justify-content: space-between;
+        .item {
+          text-align: center;
+          p {
+            font-size: 10px;
+            color: #ababab;
+          }
+          .bottom-menu {
+            width: 40px;
+            height: 30px;
+            text-indent: -9999px;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 3px;
+          }
+          .img1 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/tap-bottom-home-d.svg");
+          }
+          .img2 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/tap-bottom-area-d.svg");
+          }
+          .img3 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/tap-bottom-around-d.svg");
+          }
+          .img4 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/tap-bottom-activity-d.svg");
+          }
+          .img5 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/tap-bottom-my-d.svg");
+          }
+        }
+      }
+    }
+  }
+}
