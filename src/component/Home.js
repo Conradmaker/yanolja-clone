@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Home.scss";
+import "../css/Home_small.scss";
 
 export default function Home() {
   return (

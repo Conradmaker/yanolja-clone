@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+  .home {
+    .section--catagory {
+      .inner {
+        .catagory {
+          margin: 0 20px 20px 20px;
+          .item {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+    .fav-list {
+      .img-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+    }
+    .middle-banner {
+      height: 160px;
+      background-size: cover;
+      margin: 0 auto;
+    }
+    .hokangs {
+      .hokang-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .section-event {
+      .event-list {
+        display: flex;
+        flex-direction: column;
+        .event-item {
+          margin: 5px 10px;
+        }
+      }
+    }
+  }
+}

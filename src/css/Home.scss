@@ -124,13 +124,13 @@ $sub-color: #ababab;
 
   //   하단부
   .container {
-    padding-top: 5px;
+    padding-top: 10px;
     background: #e5e5e5;
     width: 100%;
   }
   .banner-container {
     width: 100%;
-    margin: 5px auto;
+    margin: 0px auto 10px;
     background: rgb(71, 218, 206);
     .banner {
       height: 93px;
@@ -190,6 +190,7 @@ $sub-color: #ababab;
     background-position: center;
     height: 205px;
     margin: 10px auto;
+    background-repeat: no-repeat;
     background-image: url("https://yaimg.yanolja.com/v5/2020/07/13/10/5f0bb526e507e8.11802505.jpg");
   }
 
@@ -256,7 +257,7 @@ $sub-color: #ababab;
         p {
           text-align: right;
           font-weight: bold;
-          font-size: 20px;
+          font-size: 18px;
           span {
             font-size: 13px;
             font-weight: normal;
