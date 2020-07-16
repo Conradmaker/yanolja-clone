@@ -1,13 +1,36 @@
+$color: #ff3478;
+$sub-color: #ababab;
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.more-info {
+  border: 1.3px solid rgb(77, 103, 255);
+  color: rgb(46, 77, 255);
+  font-size: 13px;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
 .home {
   .section--catagory {
+    padding-top: 60px;
+    font-size: 13px;
+    font-weight: bold;
     .inner {
       .location {
+        padding-left: 25px;
+        margin-bottom: 20px;
       }
       .catagory {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
         justify-items: center;
+        gap: 40px 20px;
+        margin-bottom: 20px;
         .item {
           text-align: center;
           display: flex;
@@ -22,12 +45,336 @@
             background-position: center;
             text-indent: -9999px;
           }
+          .logo2 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-hotel.svg");
+          }
+          .logo3 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-premium-hotel.svg");
+          }
+          .logo4 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-resort.svg");
+          }
+          .logo5 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-pension.svg");
+          }
+          .logo6 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-glamping.svg");
+          }
+          .logo7 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-guest-house.svg");
+          }
+          .logo8 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-flight.svg");
+          }
+          .logo9 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-rentcar.svg");
+          }
+          .logo10 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-train.svg");
+          }
+          .logo11 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-leisure.svg");
+          }
+          .logo12 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-kids.svg");
+          }
+          .logo13 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-theme-park.svg");
+          }
+          .logo14 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-busan.png");
+          }
+          .logo15 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/icon-quick-global.svg");
+          }
         }
       }
-      .coupon {
+      .coupons {
         text-align: center;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 20px;
+        .coupon-item {
+          color: $color;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 1px solid #e5e5e5;
+          padding: 5px;
+          .coupon-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 32px;
+            height: 34px;
+            text-indent: -9999px;
+          }
+          .img1 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/ic-coupon-fill-yablue.svg");
+          }
+          .img2 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/ic-infinite-fill-yablue.svg");
+          }
+          .img3 {
+            background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/quick-category/ic_vipsummer.png");
+          }
+        }
+      }
+    }
+  }
+
+  //   하단부
+  .container {
+    padding-top: 5px;
+    background: #e5e5e5;
+    width: 100%;
+  }
+  .banner-container {
+    width: 100%;
+    margin: 5px auto;
+    background: rgb(71, 218, 206);
+    .banner {
+      height: 93px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url("https://yaimg.yanolja.com/v5/2020/06/30/13/5efabf0a6b9e35.42860288.png");
+    }
+  }
+  .fav-list {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    background: #fff;
+
+    .img-list {
+      font-weight: bold;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+      margin: 15px auto;
+
+      .list-img {
+        height: 90px;
+        color: white;
+        background-position: center;
+        background-size: contain;
+        padding: 7px;
+        box-sizing: border-box;
+      }
+      .img1 {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/thumb-promotion-nor@2x.png");
+      }
+      .img2 {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/thumb-interior-nor@2x.png");
+      }
+      .img3 {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/thumb-hotel-nor@2x.png");
+      }
+      .img4 {
+        background-image: url("https://yaimg.yanolja.com/joy/sunny/static/images/thumb-party-nor@2x.png");
+      }
+    }
+    .fav-tag {
+      .tag-list {
+        font-weight: bold;
+        font-size: 13px;
+        padding: 12px 9px;
+        border: 1px solid #e5e5e5;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  //중앙배너
+  .middle-banner {
+    background-size: contain;
+    background-position: center;
+    height: 205px;
+    margin: 10px auto;
+    background-image: url("https://yaimg.yanolja.com/v5/2020/07/13/10/5f0bb526e507e8.11802505.jpg");
+  }
+
+  //우리도 호캉스 갈까?
+  .hokangs {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    background: #fff;
+    padding-bottom: 0;
+    .title-container {
+      display: flex;
+      align-items: center;
+      .title {
+        flex: 1;
+      }
+    }
+    .location-list {
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 15px 0;
+      .location {
+        color: #9b9b9b;
+        font-size: 13px;
+        padding: 10px 10px;
+      }
+      .location:nth-child(1) {
+        border-bottom: 2px solid #000;
+        font-weight: bold;
+        color: #111;
+      }
+    }
+    .hokang-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+      .hokangs-item {
+        .img {
+          height: 127.5px;
+          text-indent: -9999px;
+          background-position: center;
+          background-size: cover;
+          border-radius: 5px;
+        }
+        .img1 {
+          background-image: url("https://yaimg.yanolja.com/v5/2020/06/18/17/640/5eeb1fc6bcb889.06422762.jpg");
+        }
+        .img2 {
+          background-image: url("https://yaimg.yanolja.com/v5/2019/12/13/23/640/5df3a534677f72.29700524.jpg");
+        }
+        .img3 {
+          background-image: url("https://yaimg.yanolja.com/v5/2020/07/01/14/640/5efc1d5b716e95.53976811.jpg");
+        }
+        .img4 {
+          background-image: url("https://yaimg.yanolja.com/v5/2020/07/05/07/640/5f010532d6b9d5.55016963.jpg");
+        }
+        .hotel-name {
+          padding: 6px;
+          font-size: 15px;
+        }
+        p {
+          text-align: right;
+          font-weight: bold;
+          font-size: 20px;
+          span {
+            font-size: 13px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+    .more-theme {
+      padding: 20px;
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      justify-content: center;
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+
+  //기획전
+  .section-event {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 15px auto;
+
+    .title {
+      padding: 30px 20px 10px 20px;
+    }
+    .event-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .event-item {
+        position: relative;
+        height: 193.5px;
+        margin: 20px;
+        border-radius: 5px;
+        color: white;
+        background-position: center;
+        background-size: cover;
+        .text-positioner {
+          position: absolute;
+          left: 15px;
+          bottom: 20px;
+          text-shadow: 0 0 15px black;
+        }
+        .box {
+          display: inline-block;
+          font-size: 12px;
+          padding: 5px;
+          border-radius: 4px;
+          background: $color;
+        }
+        .event-title {
+          padding: 7px 0;
+          font-weight: bold;
+          font-size: 20px;
+          span {
+            color: $color;
+          }
+        }
+        .event-des {
+          font-size: 13px;
+          span {
+            color: $color;
+          }
+        }
+      }
+      .img1 {
+        background-image: url("https://yaimg.yanolja.com/v5/2020/06/04/11/5ed85cd072c1f1.51536526.jpg");
+      }
+      .img2 {
+        background-image: url("https://yaimg.yanolja.com/v5/2020/07/15/10/5f0e568a18d849.46311860.png");
+      }
+      .img3 {
+        background-image: url("https://yaimg.yanolja.com/v5/2020/06/11/17/5ee1ebc74125b3.83687793.jpg");
+      }
+      .img4 {
+        background-image: url("https://yaimg.yanolja.com/v5/2019/10/16/19/5da6ec40aa2f29.74406659.jpg");
+      }
+      .img5 {
+        background-image: url("https://yaimg.yanolja.com/v5/2020/04/21/11/5e9e5a083c01e8.80382089.jpg");
+      }
+      .img6 {
+        background-image: url("https://yaimg.yanolja.com/v5/2020/06/10/16/5ee08757eef341.78206362.jpg");
+      }
+    }
+    .more-info {
+      display: inline-block;
+      margin: 5px auto;
+      margin-bottom: 60px;
+      color: #111;
+      border-color: $color;
+      display: inline-block;
+    }
+    //공지ㅣ사항
+  }
+  .section--noti {
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 100px;
+    span {
+      font-weight: bold;
+      margin-right: 15px;
+    }
+  }
+  //푸터
+  footer {
+    font-size: 14px;
+    padding-bottom: 90px;
+    p {
+      margin: 10px 15px;
+      span {
+        color: navy;
+        font-weight: bold;
       }
     }
   }

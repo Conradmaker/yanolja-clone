@@ -20,6 +20,8 @@ a {
 
 //TOP_NAV
 .section--nav-top {
+  z-index: 10;
+  background: #fff;
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
   position: fixed;
@@ -57,7 +59,9 @@ a {
 
 //BOTTOM_NAV
 .section--nav-bottom {
+  z-index: 10;
   .bottom-nav {
+    background: #fff;
     width: 100%;
     position: fixed;
     bottom: 0;
